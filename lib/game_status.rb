@@ -46,9 +46,8 @@ def over?(board)
 end
 
 def winner(board)
-  board = ["X", "X ", "X ", " ", " ", " ", " ", " ", " "]
   puts "#{won?(board)}"
 end
 
-board = ["X", "X ", "X ", " ", " ", " ", " ", " ", " "]
+
 winner(board)
