@@ -46,7 +46,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board).is_a?(Array)
+  if won?(board).is_a?(Array) == true
     return "Shit"
   else
     nil
