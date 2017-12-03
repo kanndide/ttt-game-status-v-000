@@ -47,5 +47,5 @@ def over?(board)
 end
 
 def winner(board)
-  return won?(board).parse
+  puts "#{won?(board)[0]}"
 end
