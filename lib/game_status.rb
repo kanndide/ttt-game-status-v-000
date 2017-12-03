@@ -52,3 +52,4 @@ end
 
 board = ["X", "X ", "X ", " ", " ", " ", " ", " ", " "]
 won?(board)
+puts "#{won?board}"
