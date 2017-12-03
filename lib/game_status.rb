@@ -48,7 +48,7 @@ end
 def winner(board)
   won?(board)
   winner = "#{won?(board)}"
-  puts winner
+  puts board[winner]
 end
 
 board = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
