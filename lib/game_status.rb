@@ -45,3 +45,7 @@ end
 def over?(board)
   full?(board) == true || won?(board).is_a?(Array)
 end
+
+def winner(board)
+  if won?(board) == ["X", "X", "X"]
+    return "X"
