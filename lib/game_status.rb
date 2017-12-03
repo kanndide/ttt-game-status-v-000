@@ -47,5 +47,5 @@ def over?(board)
 end
 
 def winner(board)
-  return won?(board).to_s
+  return won?(board).parse
 end
