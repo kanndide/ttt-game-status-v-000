@@ -50,5 +50,5 @@ def winner(board)
   puts "#{won?(board)}"
 end
 
-board = ["X", "X ", "X ", " ", " ", " ", " ", " ", " "]
+board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 winner(board)
