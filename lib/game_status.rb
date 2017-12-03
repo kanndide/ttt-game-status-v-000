@@ -41,5 +41,5 @@ def draw?(board)
 end
 
 def over?(board)
-  full?(board) == true
+  full?(board) == true || won?(board) == Array 
 end
