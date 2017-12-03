@@ -37,9 +37,9 @@ def full?(board)
 end
 
 def draw?(board)
-  won?(board).is_a(Array)
+  won?(board).is_a?(Array)
 end
 
 def over?(board)
-  full?(board) == true || won?(board).is_a(Array)
+  full?(board) == true || won?(board).is_a?(Array)
 end
