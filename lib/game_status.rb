@@ -44,4 +44,3 @@ end
 
 def over?(board)
 end
-
