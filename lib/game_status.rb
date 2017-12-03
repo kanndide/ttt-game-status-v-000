@@ -46,9 +46,11 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
-  winner = "#{won?(board)}"
-  puts board[winner.to_i]
+  if won?(board).is_a?(Array)
+    return "Shit"
+  else
+    nil
+  end
 end
 
 board = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
