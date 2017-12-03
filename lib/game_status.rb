@@ -48,8 +48,8 @@ end
 def winner(board)
   won?(board)
   winner = "#{won?(board)}"
-  board[winner.to_i]
+  puts board[winner.to_i]
 end
 
-board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
+board = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
 winner(board)
