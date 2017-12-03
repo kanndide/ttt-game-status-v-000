@@ -47,7 +47,5 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == ["X", "X", "X"]
-    return "X"
-  end
+  return won?(board).to_s
 end
