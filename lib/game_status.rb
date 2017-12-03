@@ -46,7 +46,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == array
+  if won?(board) == Array
     return "Shit"
   else
     nil
