@@ -47,7 +47,7 @@ end
 
 def winner(board)
   if won?(board).is_a?(Array)
-    return board[won?(board)[0]]
+    return board[won?(board)
   else
     nil
   end
