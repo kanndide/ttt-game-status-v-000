@@ -44,6 +44,6 @@ end
 
 def over?(board)
   full?(board) == true || won?(board).is_a?(Array)
-else 
+else
   false
 end
