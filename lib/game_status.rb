@@ -47,7 +47,7 @@ end
 
 def winner(board)
   won?(board)
-  puts "#{won?(board)}"
+  puts "board(#{won?(board))}"
 end
 
 board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
